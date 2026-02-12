@@ -1,0 +1,184 @@
+/* ================= GENERAL ================= */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* ================= HEADER / NAV ================= */
+.topmenu {
+    background-color: #1f2933;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.topmenu nav a {
+    margin: 0 12px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.topmenu nav a:hover {
+    color: #38bdf8;
+}
+
+.iconbutton a {
+    color: white;
+    font-size: 22px;
+}
+
+.iconbutton a:hover {
+    color: #38bdf8;
+}
+
+/* ================= PROFILE NAME ================= */
+.profile_name {
+    background-color: white;
+    padding: 50px 30px;
+    text-align: center;
+    font-size: 32px;
+    color: #3b82f6;
+}
+
+.profile_name span {
+    font-weight: bold;
+}
+
+.profile_name p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* ================= SECTION CARD ================= */
+.section-card {
+    background-color: white;
+    margin: 30px auto;
+    padding: 40px;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #1f2933;
+}
+
+/* ================= ABOUT ================= */
+.about-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-container img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+/* ================= SKILLS ================= */
+.skills {
+    display: flex;
+    justify-content: center; /* CENTER the skill cards */
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9fafb;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.skill img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.skill h4 {
+    margin: 10px 0 5px 0;
+    color: #1e3a8a;
+}
+
+.skill p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ================= PROJECTS ================= */
+.projects {
+    display: flex;
+    justify-content: center; /* Center projects */
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9fafb;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.project-card:hover {
+    background-color: #e0f2fe;
+    transform: scale(1.03);
+}
+
+/* ================= RECOMMENDATIONS ================= */
+.recommendation {
+    background-color: #f9fafb;
+    padding: 15px;
+    border-left: 4px solid #3b82f6;
+    margin-bottom: 15px;
+}
+
+.recommendation:hover {
+    background-color: #eef6ff;
+}
+
+.recommend-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recommend-form input {
+    padding: 10px;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.recommend-form button {
+    padding: 10px 16px;
+    margin-left: 8px;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.recommend-form button:hover {
+    background-color: #2563eb;
+}
